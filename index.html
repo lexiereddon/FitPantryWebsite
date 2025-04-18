@@ -43,34 +43,35 @@
 
 /* Menu Toggle Button */
 .menuToggle {
-	color: #fff;
-	background-color: #173660;
-	border-radius: 5px;
-	padding: 0.5em 1em;
-	transition: background-color 0.3s ease;
+    color: #fff; /* White text */
+    background-color: #173660; /* Berkeley Blue */
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease;
 }
 
 .menuToggle:hover,
 .menuToggle:focus {
-	background-color: #5EBB42; /* Kelly Green on hover */
+    background-color: #173660; /* Keep Berkeley Blue on hover and focus */
 }
 
 /* Menu Panel (when opened) */
 #menu {
-	background: #173660 !important; /* Force Berkeley Blue background */
-	color: #fff;
-	transition: background-color 0.3s ease;
+    background: #173660 !important; /* Ensure Berkeley Blue background */
+    color: #fff; /* White text */
+    transition: background-color 0.3s ease;
 }
 
-/* Ensure links stay light blue */
+/* Ensure links in the menu stay light blue */
 #menu a {
-	color: #a4d8ff;
-	text-decoration: none;
+    color: #a4d8ff; /* Light blue links */
+    text-decoration: none;
 }
 
 #menu a:hover {
-	color: #5EBB42; /* Kelly Green on hover */
+    color: #5EBB42; /* Kelly Green on hover for links */
 }
+
 
 	</style>
 </head>
