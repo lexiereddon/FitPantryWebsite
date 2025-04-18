@@ -5,14 +5,25 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Home-FitPantry</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		
-		<style>
+<head>
+	<title>Home - FitPantry</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	<style>
+		/* Wrapper Colors */
+		.wrapper.style1 {
+			background-color: #5EBB42; /* Kelly Green */
+			color: #fff;
+		}
+
+		.wrapper.style2 {
+			background-color: #173660; /* Berkeley Blue */
+			color: #fff;
+		}
+
 		.wrapper.style2 ul {
 			list-style: none;
 			padding-left: 0;
@@ -21,185 +32,165 @@
 		.wrapper.style2 ul li {
 			margin-bottom: 1em;
 		}
+
+		.wrapper.style2 a {
+			color: #a4d8ff; /* Lighter link color */
+		}
+
+		.wrapper.style2 strong {
+			color: #ffffff;
+		}
+
+		/* Menu Panel Styling */
+		#menu {
+			background: #173660; /* Berkeley Blue */
+			color: #fff;
+		}
+
+		#menu a {
+			color: #a4d8ff;
+		}
+
+		#menu a:hover {
+			color: #5EBB42; /* Kelly Green hover */
+		}
+
+		/* Menu Toggle Button */
+		.menuToggle {
+			color: #fff;
+			background-color: #173660;
+			border-radius: 5px;
+			padding: 0.5em 1em;
+		}
+
+		.menuToggle:hover {
+			background-color: #5EBB42;
+		}
 	</style>
+</head>
 
-		<style>
-	.wrapper.style1 {
-		background-color: #5EBB42; /* Kelly Green */
-		color: #fff;
-	}
+<body class="landing is-preload">
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
 
-	.wrapper.style2 {
-		background-color: #173660; /* Berkeley Blue */
-		color: #fff;
-	}
-
-	.wrapper.style2 a {
-		color: #a4d8ff; /* Optional: lighter link color for readability on blue */
-	}
-
-	.wrapper.style2 strong {
-		color: #ffffff;
-	}
-</style>
-
-	</head>
-	<body class="landing is-preload">
-
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
-
-				<!-- Header -->
-					<header id="header" class="alt">
-						<h1><a href="index.html">FitPantry</a></h1>
-						<nav id="nav">
+		<!-- Header -->
+		<header id="header" class="alt">
+			<h1><a href="index.html">FitPantry</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
 							<ul>
-								<li class="special">
-									<a href="#menu" class="menuToggle"><span>Menu</span></a>
-									<div id="menu">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="generic.html">Related Resources</a></li>
-										</ul>
-									</div>
-								</li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="generic.html">Related Resources</a></li>
 							</ul>
-						</nav>
-					</header>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-				<!-- Banner -->
-				<article id="main">
-<header>
-    <div class="inner">
-        <h2>FitPantry</h2>
-        <p>CS 426 Senior Project in Computer Science, <br />
-            Spring 2025, <br />
-            at UNR, CSE Department </p>
-        <h4>Team 1</h4>
-        <p> Chase Rodie <br />
-            Heather Amistani <br />
-            Lexie Reddon <br />
-            Zach Greenhill </p>	
-    </div>
-</header>
+		<!-- Banner -->
+		<article id="main">
+			<header>
+				<div class="inner">
+					<h2>FitPantry</h2>
+					<p>CS 426 Senior Project in Computer Science, <br />
+						Spring 2025, <br />
+						at UNR, CSE Department </p>
+					<h4>Team 1</h4>
+					<p>Chase Rodie <br />
+						Heather Amistani <br />
+						Lexie Reddon <br />
+						Zach Greenhill</p>
+				</div>
+			</header>
 
-
-					<section class="wrapper style5">
-						<div class="inner">
+			<!-- Instructor Section -->
+			<section class="wrapper style5">
+				<div class="inner">
 					<h3>Instructors and External Advisors</h3>
-									<div class="row">
-										<div class="col-6 col-12-medium">
-										<h4> Sara Davis</h4>
-										<p>Instructor: UNR CSE Department</p>
-										</div>
-										<div class="col-6 col-12-medium">
-										<h4>Vinh Le </h4>
-										<p>Instructor: UNR CSE Department</p>
-										</div>
-										<div class="col-6 col-12-medium">
-										<h4>Dave Feil-Seifer</h4>
-										<p>Instructor & External Advisor: UNR CSE Department </p> 
-										</div>
-									</div>
+					<div class="row">
+						<div class="col-6 col-12-medium">
+							<h4>Sara Davis</h4>
+							<p>Instructor: UNR CSE Department</p>
 						</div>
-					</section>
-				<!-- One -->
-					<section id="one" class="wrapper style1 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Project Description</h2>
-								<blockquote>FitPantry is a nutrition and fitness application designed to help users make healthy lifestyle choices by tracking and generating custom meal plans and workout routines. Our goal is to simplify nutrition by generating meals that not only conform to a user’s dietary needs but also use the foods a user has available to them. Users can also generate workout routines and track their fitness journey so they can view their progress.
-									Our application aims to assist all individuals who desire any level of assistance in their fitness journey. From fitness enthusiasts to people who know very little about nutrition, FitPantry can help users save time by managing dietary restrictions, fitness goals, and specific nutritional needs.
-									The main capabilities of our application revolve around personalizing the fitness and nutrition experience. To accomplish this, users can set their own goals and restrictions such as basic biometric information and allergies as well as their own fitness goals such as losing weight or gaining muscle. Users can also add foods to their pantry that will be used to generate nutritious customized meals that conform to their goals. Workouts are also tailored to everyone by recommending exercises that would help them achieve their goals based on their information. Additionally, the app will allow users to “favorite” the exercises and meals they prefer. This data will be used to create shopping lists so they can continue to cook their favorite meals.
-									FitPantry is currently being developed for use on iOS devices exclusively. Given that we are using Xcode as our IDE and Swift as our programming language for the interface. Our backend is being managed by Firebase for storing data and user authentication. AI components are being implemented with PyTorch using the Python language for training. </blockquote>
-							</header>
+						<div class="col-6 col-12-medium">
+							<h4>Vinh Le</h4>
+							<p>Instructor: UNR CSE Department</p>
 						</div>
-					</section>
-					<section class="wrapper style2 special">
-    <div class="inner">
-        <header class="major">
-            <h2>Project Related Resources</h2>
-        </header>
-        <ul>
-            <li><strong>Problem Domain Book:</strong> <br />
-                <em>Artificial Intelligence in Health: From Concept to Applications</em>
-            </li>
-            <li><strong>Useful/Related Websites:</strong>
-                <ul>
-                    <li><a href="https://www.ijirt.org/publishedpaper/IJIRT169655_PAPER.pdf?utm_source=chatgpt.com">AI-Based Fitness and Nutritional Guidance System</a></li>
-                    <li><a href="https://www.ijert.org/research/personalized-diet-recommendation-system-using-machine-learning-IJERTV13IS020125.pdf?utm_source=chatgpt.com">Personalized Diet Recommendation System Using Machine Learning</a></li>
-                    <li><a href="https://www.ijert.org/research/ai-powered-nutrition-assistant-and-step-tracker-IJERTV13IS040178.pdf?utm_source=chatgpt.com">AI-Powered Nutrition Assistant and Step Tracker</a></li>
-                    <li><a href="https://arxiv.org/abs/2502.20601?utm_source=chatgpt.com">NutriGen: Personalized Meal Plan Generator Leveraging Large Language Models</a></li>
-                </ul>
-            </li>
-            <li><strong>Technical Reports, Conference Papers, and Journal Articles:</strong>
-                <ul>
-                    <li><em>"AI-Based Fitness and Nutritional Guidance System"</em> – [Author(s)], [Conference Name]</li>
-                    <li><em>"Personalized Diet Recommendation System Using Machine Learning"</em> – [Details]</li>
-                </ul>
-            </li>
-            <li><strong>News & Other Information:</strong>
-                <ul>
-                    <li><a href="https://www.axios.com/newsletters/axios-what%27s-next-83ec5fe2-7684-4251-b9c2-3e7fdb5139e0?utm_source=chatgpt.com">Smarter Nutrition: Revolutionizing Personalized Nutrition Counseling with AI</a></li>
-                    <li><a href="https://www.axios.com/local/new-orleans/2024/03/07/lsu-nutrition-study-personalized-diets?utm_source=chatgpt.com">After Unprecedented Nutrition Study, Personalized Diet Plans May Be Next</a></li>
-                    <li><a href="https://www.jetir.org/papers/JETIR2405D66.pdf?utm_source=chatgpt.com">AI-Powered Fitness App for Dynamic Workout Tracking and Personalized Recommendations</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</section>
+						<div class="col-6 col-12-medium">
+							<h4>Dave Feil-Seifer</h4>
+							<p>Instructor & External Advisor: UNR CSE Department</p>
+						</div>
+					</div>
+				</div>
+			</section>
 
-				</article>
-				
-				<!--  
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon solid fa-headphones-alt">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
+			<!-- Project Description -->
+			<section id="one" class="wrapper style1 special">
+				<div class="inner">
+					<header class="major">
+						<h2>Project Description</h2>
+						<blockquote>
+							FitPantry is a nutrition and fitness application designed to help users make healthy lifestyle choices by tracking and generating custom meal plans and workout routines. Our goal is to simplify nutrition by generating meals that not only conform to a user’s dietary needs but also use the foods a user has available to them. Users can also generate workout routines and track their fitness journey so they can view their progress.
+
+							The main capabilities of our application revolve around personalizing the fitness and nutrition experience. To accomplish this, users can set their own goals and restrictions such as basic biometric information and allergies as well as their own fitness goals such as losing weight or gaining muscle. Users can also add foods to their pantry that will be used to generate nutritious customized meals that conform to their goals. Workouts are also tailored to everyone by recommending exercises that would help them achieve their goals based on their information. Additionally, the app will allow users to “favorite” the exercises and meals they prefer. This data will be used to create shopping lists so they can continue to cook their favorite meals.
+
+							FitPantry is currently being developed for use on iOS devices exclusively. We are using Xcode and Swift for the front end, Firebase for the backend and authentication, and PyTorch for AI training in Python.
+						</blockquote>
+					</header>
+				</div>
+			</section>
+
+			<!-- Project Related Resources -->
+			<section class="wrapper style2 special">
+				<div class="inner">
+					<header class="major">
+						<h2>Project Related Resources</h2>
+					</header>
+					<ul>
+						<li><strong>Problem Domain Book:</strong> <br />
+							<em>Artificial Intelligence in Health: From Concept to Applications</em>
+						</li>
+						<li><strong>Useful/Related Websites:</strong>
+							<ul>
+								<li><a href="https://www.ijirt.org/publishedpaper/IJIRT169655_PAPER.pdf?utm_source=chatgpt.com">AI-Based Fitness and Nutritional Guidance System</a></li>
+								<li><a href="https://www.ijert.org/research/personalized-diet-recommendation-system-using-machine-learning-IJERTV13IS020125.pdf?utm_source=chatgpt.com">Personalized Diet Recommendation System Using Machine Learning</a></li>
+								<li><a href="https://www.ijert.org/research/ai-powered-nutrition-assistant-and-step-tracker-IJERTV13IS040178.pdf?utm_source=chatgpt.com">AI-Powered Nutrition Assistant and Step Tracker</a></li>
+								<li><a href="https://arxiv.org/abs/2502.20601?utm_source=chatgpt.com">NutriGen: Personalized Meal Plan Generator Leveraging Large Language Models</a></li>
 							</ul>
-						</div>
-					</section>
+						</li>
+						<li><strong>Technical Reports, Conference Papers, and Journal Articles:</strong>
+							<ul>
+								<li><em>"AI-Based Fitness and Nutritional Guidance System"</em> – [Author(s)], [Conference Name]</li>
+								<li><em>"Personalized Diet Recommendation System Using Machine Learning"</em> – [Details]</li>
+							</ul>
+						</li>
+						<li><strong>News & Other Information:</strong>
+							<ul>
+								<li><a href="https://www.axios.com/newsletters/axios-what%27s-next-83ec5fe2-7684-4251-b9c2-3e7fdb5139e0?utm_source=chatgpt.com">Smarter Nutrition: Revolutionizing Personalized Nutrition Counseling with AI</a></li>
+								<li><a href="https://www.axios.com/local/new-orleans/2024/03/07/lsu-nutrition-study-personalized-diets?utm_source=chatgpt.com">After Unprecedented Nutrition Study, Personalized Diet Plans May Be Next</a></li>
+								<li><a href="https://www.jetir.org/papers/JETIR2405D66.pdf?utm_source=chatgpt.com">AI-Powered Fitness App for Dynamic Workout Tracking and Personalized Recommendations</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</article>
+	</div>
 
-				--> 
-			</div>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
+
 
